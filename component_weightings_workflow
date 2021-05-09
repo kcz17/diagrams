@@ -1,0 +1,39 @@
+<mxfile host="app.diagrams.net" modified="2021-05-09T15:33:42.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="LER9zfmev3v2SzNVQbI6" version="14.6.11" type="github">
+  <diagram id="whum5KUoKy-AiShSeKjw" name="Page-1">
+    <mxGraphModel dx="982" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7800FAnf7w5shlVnYeUa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T9op1pWDXtT6hMXo4TAV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="T9op1pWDXtT6hMXo4TAV-2" target="7800FAnf7w5shlVnYeUa-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9op1pWDXtT6hMXo4TAV-2" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Ensure load testing profile for third party load testing tool is accurate&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="241" y="310" width="79" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-2" value="Feature/architecture change" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;fontSize=11;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7800FAnf7w5shlVnYeUa-3" target="7800FAnf7w5shlVnYeUa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-3" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Start third party load testing tool&#39;s server&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7800FAnf7w5shlVnYeUa-8" target="7800FAnf7w5shlVnYeUa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-8" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Run the Kubedim offline training tool, pointing it to load testing server&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7800FAnf7w5shlVnYeUa-10" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Update ConfigMap with resulting component weightings&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544.5" y="310" width="80" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
