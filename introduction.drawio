@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-05-25T10:02:56.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="zuYbcM_5tqLJoR6Yi1zg" version="14.6.11" type="github"><diagram id="whum5KUoKy-AiShSeKjw" name="microservices_vs_monoliths">dZHBDoMgDIafhrvCou7s3Lzs5GFnIp2QoDXIotvTTwPOEbcT5fv/trQQlrfTxfBeXlGAJjQSE2EnQmkcp9l8LOTpSHKIHWiMEt60gUq9wMPI04cSMARGi6it6kNYY9dBbQPGjcExtN1Rh1173sAOVDXXe3pTwsp1ruS4CSWoRvrWGU2d0PLV7CcZJBc4fiFWEJYbROuidspBL8tb9+Lyzn/Uz8MMdPZHwhxstedL8EOseAM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-25T10:16:46.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="XbdverK-JRyiMvnDpKVa" version="14.6.11" type="github">
+  <diagram id="whum5KUoKy-AiShSeKjw" name="microservices_vs_monoliths">
+    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="260" width="150" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-1" target="ZGd-4eqSVzOP_96qWRgu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-1" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Front-end (JavaScript)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-2" target="ZGd-4eqSVzOP_96qWRgu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-2" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Business logic (Java)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="330" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-3" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Database (MySQL)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="390" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-5" value="&lt;font face=&quot;Georgia&quot;&gt;Monolith Architecture&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-7" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Front-end (JavaScript)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="440" y="270" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-8" target="ZGd-4eqSVzOP_96qWRgu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-8" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Shopping cart&lt;br&gt;business logic (Java)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="335" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-9" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Shopping cart database (PostgreSQL)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-10" value="&lt;font face=&quot;Georgia&quot;&gt;Microservice Architecture&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-16" target="ZGd-4eqSVzOP_96qWRgu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-16" target="ZGd-4eqSVzOP_96qWRgu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-16" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Catalogue business logic (Go)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="465" y="335" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-17" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Catalogue database (MongoDB)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="465" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-21" target="ZGd-4eqSVzOP_96qWRgu-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-21" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Authentication middleware (Go)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="335" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-22" target="ZGd-4eqSVzOP_96qWRgu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-22" target="ZGd-4eqSVzOP_96qWRgu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-22" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Administration business logic (Kotlin)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="406" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-7" target="ZGd-4eqSVzOP_96qWRgu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGd-4eqSVzOP_96qWRgu-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZGd-4eqSVzOP_96qWRgu-7" target="ZGd-4eqSVzOP_96qWRgu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
