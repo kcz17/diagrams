@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T14:29:47.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="eFyQqV_RC46DTF4VZa_S" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-01T14:50:56.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="AzeY-hhOQi-2cFLp2fBg" version="14.7.1" type="github">
   <diagram id="whum5KUoKy-AiShSeKjw" name="Page-1">
     <mxGraphModel dx="679" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3rzmkG7fn2VMiRptU1J5-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Georgia;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="433.99777777777786" y="464" as="geometry" />
-        </mxCell>
         <mxCell id="7800FAnf7w5shlVnYeUa-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="T9op1pWDXtT6hMXo4TAV-2" target="7800FAnf7w5shlVnYeUa-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -36,8 +33,10 @@
         <mxCell id="7800FAnf7w5shlVnYeUa-10" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Run linear regression on list of linear equations to obtain weightings&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="544.5" y="310" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="cBc5ip0D68nON8SmHcBV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=8;" parent="1" source="cBc5ip0D68nON8SmHcBV-1" target="cBc5ip0D68nON8SmHcBV-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="cBc5ip0D68nON8SmHcBV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=8;" parent="1" source="cBc5ip0D68nON8SmHcBV-1" target="cBc5ip0D68nON8SmHcBV-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="470" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cBc5ip0D68nON8SmHcBV-6" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Georgia;" parent="cBc5ip0D68nON8SmHcBV-5" vertex="1" connectable="0">
           <mxGeometry x="-0.8286" relative="1" as="geometry">
@@ -58,21 +57,8 @@
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cBc5ip0D68nON8SmHcBV-1" value="Candidate &lt;br style=&quot;font-size: 10px;&quot;&gt;p95 &amp;lt; control p95?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="cBc5ip0D68nON8SmHcBV-1" value="Significant change?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="545" y="430" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="cBc5ip0D68nON8SmHcBV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=8;" parent="1" source="cBc5ip0D68nON8SmHcBV-4" target="cBc5ip0D68nON8SmHcBV-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3rzmkG7fn2VMiRptU1J5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="cBc5ip0D68nON8SmHcBV-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="cBc5ip0D68nON8SmHcBV-4" value="Significant change?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="440" y="430" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3rzmkG7fn2VMiRptU1J5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="cBc5ip0D68nON8SmHcBV-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -80,13 +66,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cBc5ip0D68nON8SmHcBV-9" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Set control (main) weightings to candidate weightings and wait three minutes&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="420" width="120" height="100" as="geometry" />
+          <mxGeometry x="390" y="420" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="cBc5ip0D68nON8SmHcBV-14" value="Start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;fontSize=11;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="213" y="350" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3rzmkG7fn2VMiRptU1J5-10" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontFamily=Georgia;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="480" y="515.9986046511629" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
