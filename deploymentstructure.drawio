@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-09T15:10:10.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="1DKy9mXi7VZyRfBIPz7w" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-13T20:52:40.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="3mSiLXXmhDML7rhdqfDX" version="14.7.7" type="github">
   <diagram id="whum5KUoKy-AiShSeKjw" name="Page-1">
-    <mxGraphModel dx="825" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="982" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="RGRaosRDjEecpVJzn8C8-15" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Main application pods&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="300" y="370" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="RGRaosRDjEecpVJzn8C8-24" target="_Ayf1mEcmFj8QKP9Nj1w-1">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="RGRaosRDjEecpVJzn8C8-24" target="_Ayf1mEcmFj8QKP9Nj1w-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RGRaosRDjEecpVJzn8C8-24" value="&lt;font face=&quot;Georgia&quot;&gt;External Kubedim tooling&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
@@ -19,28 +19,52 @@
         <mxCell id="T9op1pWDXtT6hMXo4TAV-1" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Kubernetes cluster&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="190" y="340" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="T9op1pWDXtT6hMXo4TAV-2" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Configuration files (ConfigMap)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="T9op1pWDXtT6hMXo4TAV-2" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Configuration files&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="480" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-1" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Kubedim pods&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-1" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Kubedim pods&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="200" y="370" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="_Ayf1mEcmFj8QKP9Nj1w-2">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="_Ayf1mEcmFj8QKP9Nj1w-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="396.625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="_Ayf1mEcmFj8QKP9Nj1w-2" target="_Ayf1mEcmFj8QKP9Nj1w-3">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" parent="1" source="_Ayf1mEcmFj8QKP9Nj1w-2" target="_Ayf1mEcmFj8QKP9Nj1w-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-2" value="&lt;font face=&quot;Georgia&quot;&gt;Dimmer&amp;nbsp;&lt;br&gt;service&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-2" value="&lt;font face=&quot;Georgia&quot;&gt;Dimmer&amp;nbsp;&lt;br&gt;service&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="210" y="380" width="60" height="33.25" as="geometry" />
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-3" value="&lt;font face=&quot;Georgia&quot;&gt;Frontend&lt;br&gt;service&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-3" value="&lt;font face=&quot;Georgia&quot;&gt;Frontend&lt;br&gt;service&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="310" y="380" width="60" height="33.25" as="geometry" />
         </mxCell>
-        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-11" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;User request&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="_Ayf1mEcmFj8QKP9Nj1w-11" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;User request&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="90" y="385.62" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="580" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-2" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Main application pods&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-5" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Kubernetes cluster&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="190" y="560" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-6" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Configuration files&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_3XvQefR54dReRh7PoMY-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="616.625" as="targetPoint" />
+            <mxPoint x="210" y="616.6666666666665" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-11" value="&lt;font face=&quot;Georgia&quot;&gt;Frontend&lt;br&gt;service&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="310" y="600" width="60" height="33.25" as="geometry" />
+        </mxCell>
+        <mxCell id="_3XvQefR54dReRh7PoMY-12" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;User request&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="90" y="605.62" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
