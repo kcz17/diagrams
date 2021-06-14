@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-01T14:50:56.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="AzeY-hhOQi-2cFLp2fBg" version="14.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T10:03:42.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="53MCQZOPAN7anWj4CO9H" version="14.7.7" type="github">
   <diagram id="whum5KUoKy-AiShSeKjw" name="Page-1">
-    <mxGraphModel dx="679" dy="367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,8 +12,8 @@
             <mxPoint x="240" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T9op1pWDXtT6hMXo4TAV-2" value="&lt;font face=&quot;Georgia&quot; style=&quot;font-size: 11px&quot;&gt;Randomly sample and set component weightings for candidate group&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="270" y="310" width="79" height="100" as="geometry" />
+        <mxCell id="T9op1pWDXtT6hMXo4TAV-2" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Apply random variations to control group component weightings and assign to candidate group&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="310" width="89" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7800FAnf7w5shlVnYeUa-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="7800FAnf7w5shlVnYeUa-3" target="7800FAnf7w5shlVnYeUa-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -46,9 +46,9 @@
         <mxCell id="3rzmkG7fn2VMiRptU1J5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=11;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="cBc5ip0D68nON8SmHcBV-1" target="T9op1pWDXtT6hMXo4TAV-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="585" y="530" />
-              <mxPoint x="250" y="530" />
-              <mxPoint x="250" y="360" />
+              <mxPoint x="584" y="530" />
+              <mxPoint x="240" y="530" />
+              <mxPoint x="240" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -57,8 +57,8 @@
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cBc5ip0D68nON8SmHcBV-1" value="Significant change?" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="545" y="430" width="80" height="80" as="geometry" />
+        <mxCell id="cBc5ip0D68nON8SmHcBV-1" value="Significant improvement?&lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="537" y="430" width="95" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3rzmkG7fn2VMiRptU1J5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="cBc5ip0D68nON8SmHcBV-9" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -66,10 +66,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cBc5ip0D68nON8SmHcBV-9" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Set control (main) weightings to candidate weightings and wait three minutes&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="420" width="120" height="100" as="geometry" />
+          <mxGeometry x="370" y="420" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DwZ0Luhlg-ZD6dRLvjhN-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cBc5ip0D68nON8SmHcBV-14" target="T9op1pWDXtT6hMXo4TAV-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cBc5ip0D68nON8SmHcBV-14" value="Start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;fontSize=11;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="213" y="350" width="40" height="20" as="geometry" />
+          <mxGeometry x="200" y="350" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
