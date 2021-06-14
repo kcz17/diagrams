@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-14T10:03:42.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="53MCQZOPAN7anWj4CO9H" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-14T10:09:37.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="vBDfIYKEt-9y9a9FNpzt" version="14.7.7" type="github">
   <diagram id="whum5KUoKy-AiShSeKjw" name="Page-1">
-    <mxGraphModel dx="1422" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
         </mxCell>
         <mxCell id="3rzmkG7fn2VMiRptU1J5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=11;startArrow=none;startFill=0;endArrow=none;endFill=0;" parent="1" source="cBc5ip0D68nON8SmHcBV-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="469.9999999999999" as="targetPoint" />
+            <mxPoint x="240" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cBc5ip0D68nON8SmHcBV-9" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;Set control (main) weightings to candidate weightings and wait three minutes&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
